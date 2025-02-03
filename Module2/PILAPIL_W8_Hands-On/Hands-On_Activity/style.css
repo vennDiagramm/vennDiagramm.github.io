@@ -1,0 +1,49 @@
+body{
+    background-color: purple;
+}
+.page-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gold;
+}
+
+/* Style for the button */
+#fetch-lakers-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+#fetch-lakers-btn:hover {
+    background-color: #45a049;
+}
+
+/* Add a box for the stats container */
+.stats-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #c787ff;
+    display: inline-block;
+    text-align: left;
+}
+
+/* Style for the stats */
+.stat {
+    margin-bottom: 10px;
+}
+
+.stat label {
+    font-weight: bold;
+}
