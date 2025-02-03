@@ -1,6 +1,7 @@
 body{
     background-color: purple;
 }
+
 .page-container {
     width: 80%;
     max-width: 800px;
@@ -13,7 +14,7 @@ body{
 }
 
 /* Style for the button */
-#fetch-lakers-btn {
+#fetch-team-btn {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -24,8 +25,12 @@ body{
     margin: 20px 0;
 }
 
-#fetch-lakers-btn:hover {
+#fetch-team-btn:hover {
     background-color: #45a049;
+}
+
+#team-container{
+    display: none;
 }
 
 /* Add a box for the stats container */
@@ -36,7 +41,7 @@ body{
     border-radius: 10px;
     background-color: #c787ff;
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 
 /* Style for the stats */
@@ -46,4 +51,8 @@ body{
 
 .stat label {
     font-weight: bold;
+}
+
+footer h3{
+    color: red;
 }

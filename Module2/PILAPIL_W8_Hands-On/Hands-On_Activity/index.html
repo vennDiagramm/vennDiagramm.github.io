@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="/Module2/PILAPIL_W8_Hands-On/Hands-On_Activity/style.css">
+    <script src="/Module2/PILAPIL_W8_Hands-On/Hands-On_Activity/script.js" defer></script>
     <title>Lakers NBA Stats</title>
 </head>
 <body>
     <div class="page-container">
-        <h1>NBA Team Generator</h1>
-        <button id="fetch-team-btn" onclick="showLakersStats()">Get Lakers Stats</button>
-        
+        <h1>Random NBA Team Generator</h1>
+        <button id="fetch-team-btn" onclick="showRandomTeam()">Get Random Team</button>
+
         <!-- Modal structure -->
-        <div id="stats-modal" class="modal">
+        <div id="team-modal" class="modal">
             <div class="modal-content">
                 <h2>Team Information</h2>
-                <div id="team-container" class="info-box"></div>
+                <div id="team-container" class="stats-box"></div>
             </div>
         </div>
 
         <footer>
-            <h3><b>BREAKING: THE LOS ANGELES LAKERS HAVE TRADED ANTHONY DAVIS FOR LUKA DONCIC</b></h3>
-            <p>&copy; 2025 Los Angeles Lakers Stats</p>
+            <h3>BREAKING NEWS: The Los Angeles Lakers have traded Anthony Davis for Luka Doncic...</h3>
+            <p>&copy; 2025 NBA Stats Generator</p>
         </footer>
     </div>
 </body>
